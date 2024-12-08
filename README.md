@@ -32,6 +32,18 @@ Run the following script to add default roles:
 
 python seed_roles.py
 
+Docker Setup
+
+1. Build the Docker Image:
+
+docker build -t employee_management_system .
+
+2. Run the Docker Container:
+
+docker run -d -p 5000:5000 --name employee_management_system employee_management_system
+
+The application will now be accessible at <http://localhost:5000>.
+
 Endpoints
 
 Authentication
