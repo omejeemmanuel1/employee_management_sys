@@ -44,7 +44,10 @@ docker run -d -p 5000:5000 --name employee_management_system employee_management
 
 The application will now be accessible at <http://localhost:5000>.
 
-Endpoints
+- Start application
+flask run
+
+- Endpoints
 
 Authentication
 
